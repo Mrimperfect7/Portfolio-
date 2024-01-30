@@ -157,7 +157,7 @@ body{
     }
 
     .hero-box {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
 
