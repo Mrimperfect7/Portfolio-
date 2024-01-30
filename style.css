@@ -166,3 +166,37 @@ body{
         height: auto;
     }
 }
+.animated-button {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            background-color: #3498db;
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        .animated-button:hover {
+            background-color: #2980b9;
+        }
+
+        .animated-button:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: all 0.5s ease;
+        }
+
+        .animated-button:hover:before {
+            width: 120%;
+            height: 300%;
+        }
