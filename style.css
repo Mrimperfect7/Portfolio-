@@ -140,3 +140,26 @@ body{
     transform: translateX(0);
   }
 }
+/* Mobile styles (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    /* Add styles specific to mobile view */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .hero-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-right img {
+        width: 100%; /* Make the image fill the container */
+        height: auto;
+    }
+}
