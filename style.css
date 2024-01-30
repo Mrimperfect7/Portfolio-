@@ -166,37 +166,3 @@ body{
         height: auto;
     }
 }
-.home{
-    padding: 12px;
-    width: 125px;
-    border-radius: 20px;
-    border: none;
-    margin-top: 17px;
-    background-color: navy;
-    box-shadow: rgba(0, 255, 242, 0.25) 0px 54px 55px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 200, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 12px 13px, rgba(2, 247, 185, 0.09) 0px -3px 5px;
-    cursor: pointer;
-    transition: all ease 0.5s;
-}
-
- .home:hover{
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 255, 242, 0.25) 0px 54px 55px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 200, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 12px 13px, rgba(2, 247, 185, 0.09) 0px -3px 5px;
-    cursor: pointer;
- }
-.about{
-    padding: 12px;
-    width: 125px;
-    border-radius: 20px;
-    border: none;
-    margin-top: 17px;
-    background-color: navy;
-    box-shadow: rgba(0, 255, 242, 0.25) 0px 54px 55px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 200, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 12px 13px, rgba(2, 247, 185, 0.09) 0px -3px 5px;
-    cursor: pointer;
-    transition: all ease 0.5s;
-}
-
- .about:hover{
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 255, 242, 0.25) 0px 54px 55px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 200, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 12px 13px, rgba(2, 247, 185, 0.09) 0px -3px 5px;
-    cursor: pointer;
- }
