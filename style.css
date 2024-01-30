@@ -41,6 +41,7 @@ body{
 
 .hero-box{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     column-gap: 50px;
@@ -127,6 +128,8 @@ body{
 }
           .entering-text {
   font-size: 2em;
+  max-width:600px;
+              margin:0 auto;
   white-space: nowrap; /* Prevent text from wrapping */
   overflow: hidden; /* Hide overflowed text */
   animation: enterText 2s ease-in-out; /* Text entering animation */
@@ -154,7 +157,7 @@ body{
     }
 
     .hero-box {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
