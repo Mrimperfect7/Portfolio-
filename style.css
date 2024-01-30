@@ -159,7 +159,7 @@ body{
     }
 
     .img-right img {
-        width: 100%; /* Make the image fill the container */
+        width: 50%; /* Make the image fill the container */
         height: auto;
     }
 }
