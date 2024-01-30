@@ -20,31 +20,30 @@
                 <a class="neon-button" href="contact.html">CONTACT</a>
             </div>
         </nav>
-        <section class="hero-box">
+        <section class="contact-form">
             <div class="txt-left">
                 <div class="entering-text">
                     <h2><span style="color: cyan;">Contact me:</span></h2>
-                    <form action="#">
-                        <div class="flex-parent">
-                            <div class="flex-item">
-                                <label for="name">Name:</label>
-                                <input type="text" name="name" id="name" placeholder="Your full name">
-                                <label for="email">Email:</label>
-                                <input type="email" name="email" id="email" placeholder="Your email address">
-                            </div>
-                            <div class="flex-item">
-                                <label for="comment">Comment:</label>
-                                <textarea name="comment" id="comment" cols="30" rows="7" placeholder="Your message"></textarea>
-                            </div>
-                        </div>
-                        <input class="neon-button" type="submit" value="Submit">
-                    </form>
+                    <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+                </div>
             <div class="img-right">
                 <img width="300px" height="300px" src="IMG-20231209-WA0026.jpg" alt="">
-            </div>
-        </section>
+            
         <footer>
             <p><a id="profile-link" href="https://instagram.com/athul.krishna10" target="_blank">Follow me on Instagram</a></p>
         </footer>
