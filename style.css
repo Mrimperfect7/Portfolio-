@@ -12,8 +12,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
-    padding: 0 100px !important;
+    
 }
 
 .navbar, .logo h1{
@@ -23,7 +22,7 @@ body{
 
 .navbar, .menu{
     display: flex;
-    column-gap: 30px;
+    column-gap: 20px;
 }
 
 .navbar, .menu a{
