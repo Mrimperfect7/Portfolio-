@@ -32,6 +32,107 @@ body{
     display: flex;
     column-gap: 20px;
 }
+    .navbar, .menu .home{
+    color: cyan;
+}
+
+.menu a:hover{
+    border: 1px solid cyan;
+}
+
+.hero-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin-top: 50px;
+}
+
+.hero-box .txt-left{
+    color: white;
+    width: 393px;
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+    .txt-left button{
+    padding: 12px;
+    width: 125px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 17px;
+    background-color: cyan;
+    box-shadow: rgba(0, 255, 242, 0.25) 0px 54px 55px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 200, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 12px 13px, rgba(2, 247, 185, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.txt-left button:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 255, 242, 0.25) 0px 54px 55px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 200, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 12px 13px, rgba(2, 247, 185, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+
+.hero-box .img-right{
+    width: 393px;
+    height: 337px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-box .img-right img{
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    box-shadow: rgba(0, 269, 219, 0.25) 0px -21px 139px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 200, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 31px 15px, rgba(2, 247, 185, -0.91) 0px -3px 18px;
+}
+
+.hero-box .img-right img:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 102, 255, 0.12) 0px -21px 139px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 102, 255, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 31px 15px, rgba(2, 247, 185, -0.91) 0px -3px 18px;
+}
+          .entering-text {
+  font-size: 2em;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowed text */
+  animation: enterText 2s ease-in-out; /* Text entering animation */
+}
+
+@keyframes enterText {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* Mobile styles (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    /* Add styles specific to mobile view */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .hero-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-right img {
+        width: 100%; /* Make the image fill the container */
+        height: auto;
+    }
+    }
+    </style>
     
 </head>
 <body>
